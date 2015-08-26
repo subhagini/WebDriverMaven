@@ -23,6 +23,8 @@ public class LoginTest {
 	driver.findElement(By.id("next")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("Passwd")).sendKeys("fdhdh");
+	//added a new comment
+	driver.findElement(By.id("Passwd")).sendKeys("fasdasdasd");
 	}
 @AfterTest
 public void TearDown()
